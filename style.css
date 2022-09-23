@@ -1,0 +1,85 @@
+#gap {
+  padding-bottom: 50px;
+}
+
+@font-face {
+  font-family: 'SUIT-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  font-family: 'SUIT-Medium';
+}
+
+.product__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 450px;
+  margin: 0;
+  border: 1.3px solid rgb(217, 217, 217);
+}
+
+.product__img {
+  width: 300px;
+  height: 300px;
+}
+
+.product__naming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* align-items: center; */
+}
+
+.product__naming_title {
+  font-size: 14px;
+  padding-bottom: 8px;
+  font-weight: 100;
+}
+
+.product__naming_price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(218, 73, 65);
+  font-size: 26px;
+  font-weight: 900;
+}
+
+#product__naming_price_original {
+  text-decoration: line-through;
+  padding-left: 8px;
+  font-size: 20px;
+  color: rgb(217, 217, 217);
+}
+
+.product__btn {
+  display: flex;
+  flex-direction: row;
+  /* flex-grow: 1; */
+  justify-content: center;
+}
+
+.product__btn button {
+  color: rgb(144, 143, 143);
+  background-color: rgb(237, 235, 235);
+  padding: 15px 0; /* padding: 상하 좌우 */
+  width: 50%;
+  border: none;
+  border-top: 1.3px solid rgb(217, 217, 217);
+}
+
+.product__btn button:last-child {
+  border-left: 1.3px solid rgb(217, 217, 217);
+}
+
+.product__btn button:hover {
+  color: rgb(218, 73, 65);
+}
