@@ -1,0 +1,9 @@
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-top: 1.3px solid rgb(217, 217, 217);
+  border-bottom: 1.3px solid rgb(217, 217, 217);
+  background-color: rgb(252, 255, 75);
+}

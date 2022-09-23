@@ -1,0 +1,12 @@
+header {
+  background-color: antiquewhite;
+  display: flex;
+  padding: 25px 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+header div {
+  font-size: 40px;
+}

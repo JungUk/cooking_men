@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #gap {
   padding-bottom: 50px;
 }
