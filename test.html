@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .wrap {
+      position: relative;
+      width: 130px;
+      height: 130px;
+      background: #ccc;
+      color: #fff;
+      font-size: 12px;
+    }
+    
+    .wrap .inner_box {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+
+    }
+
+    .box1 {
+      opacity: 1;
+      transform: translateX(30px);
+       
+    }
+
+    .box1 .inner_box {
+      background-color: purple;
+      top: 10px;
+      left: 18px;
+      z-index: 10;
+    }
+
+
+  </style>
+  <div class="wrap">
+    <div class="box1">
+      <div class="inner_box">BOX1</div>
+    </div>
+  </div>
+  <h4>BOX1에다가 z-index를 높게줬음</h4>
+</body>
+</html>

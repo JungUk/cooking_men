@@ -10,6 +10,7 @@ function prev() {
     nextBtn.removeAttribute("disabled");
     position += IMAGE_WIDTH;
     images.style.transform = `translateX(${position}px)`;
+    images.style.transition = `opacity 800ms ease-in-out 0s`;
     curPos = curPos - 1;
   }
 
@@ -23,6 +24,7 @@ function next() {
     prevBtn.removeAttribute("disabled");
     position -= IMAGE_WIDTH;
     images.style.transform = `translateX(${position}px)`;
+    images.style.transition = `background-color 0.3s ease-in-out 0s`;
     curPos = curPos + 1;
   }
   

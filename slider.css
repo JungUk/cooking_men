@@ -7,15 +7,17 @@
   width: 640px;
   height: 400px;
   overflow: hidden;
+  opacity: 1;
 }
 
 .images {
+  background-color: rgb(225, 169, 250);
   display: flex;
   position: relative;
   height: 400px;
 }
 
-img {
+.images img {
   width: 640px;
   height: 400px;
 }
