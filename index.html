@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="slider.css">
   <title>임재양 회장</title>
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="slick-1.8.1/slick/slick.js"></script>
 </head>
 <body>
   <header>
@@ -17,34 +21,16 @@
   </header>
   <nav>여기는 네비</nav>
 
+  <section class="visual">
+    <div><img src="img/삼진어묵_슬라이더_1.jpeg" alt=""></div>
+    <div><img src="img/삼진어묵_슬라이더_2.jpeg" alt=""></div>
+    <div><img src="img/삼진어묵_슬라이더_3.jpeg" alt=""></div>
+    <div><img src="img/삼진어묵_슬라이더_4.jpeg" alt=""></div>
+  </section>
 
-  <div class="slider__container">
-    <div class="album">
-      <div class="images">
-        <div class="slider__object" aria-hidden="true">
-          <a href=""></a>
-          <img src="img/yoshimitsu.jpeg" alt="">
-        </div>
-        <div aria-hidden="true">
-          <a href=""></a>
-          <img src="img/jack7.jpeg" alt="">
-        </div>
-        <div aria-hidden="true">
-          <a href=""></a>
-          <img src="img/다운로드.jpeg" alt="">
-        </div>
-        <div aria-hidden="true">
-          <a href=""></a>
-          <img src="img/alisa.jpeg" alt="">
-        </div>
-      </div>
-    </div>
-
-    <button class="prev">PREV</button>
-    <button class="next">NEXT</button>
-  </div>
-  <script src="slider.js"></script>
-
+  <script type="text/javascript">
+    $('.visual').slick();
+  </script>
 
   <div id="gap">좀 띄웁시다</div>
   <div class="product__container">

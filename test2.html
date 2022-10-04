@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="slick-1.8.1/slick/slick.js"></script>
+  <style>
+    .visual {
+      position: relative;
+    }
+    .visual button {
+      z-index: 10;
+      background-color: brown;
+      opacity: 0.5;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <section class="visual">
+    <div><img src="img/alisa.jpeg" alt=""></div>
+    <div><img src="img/jack7.jpeg" alt=""></div>
+    <div><img src="img/yoshimitsu.jpeg" alt=""></div>
+    <div><img src="img/다운로드.jpeg" alt=""></div>
+  </section>
+
+  <script type="text/javascript">
+    $('.visual').slick();
+  </script>
+</body>
+</html>
