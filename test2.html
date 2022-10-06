@@ -5,33 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
-  <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="slick-1.8.1/slick/slick.js"></script>
   <style>
-    .visual {
-      position: relative;
+    .container {
+      display: block;
     }
-    .visual button {
-      z-index: 10;
-      background-color: brown;
-      opacity: 0.5;
-      width: 100px;
-      height: 100px;
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
     }
   </style>
 </head>
 <body>
-  <section class="visual">
-    <div><img src="img/alisa.jpeg" alt=""></div>
-    <div><img src="img/jack7.jpeg" alt=""></div>
-    <div><img src="img/yoshimitsu.jpeg" alt=""></div>
-    <div><img src="img/다운로드.jpeg" alt=""></div>
-  </section>
-
-  <script type="text/javascript">
-    $('.visual').slick();
-  </script>
+  <div class="container">
+    <div class="left">즐겨찾기 등등</div>
+    <div class="right">여러가지 메뉴</div>
+  </div>
 </body>
 </html>

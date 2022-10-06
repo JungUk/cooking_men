@@ -1,21 +1,34 @@
+
+
+
+.global__container {
+  display: block;
+}
+
+.slider__container {
+  position: relative;
+  
+}
+
 .slider {
   width: 100%;
-  height: 490px;
+  height: 400px;
   position: relative;
+  top: 45px;
 }
 
 .slider__item {
-  /* position: absolute; */
+  position: absolute;
   width: 100%;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   top: 0;
   opacity: 0;
   transition: opacity .5s ease-in-out;
 }
+
 
 .showing {
   opacity: 1;
