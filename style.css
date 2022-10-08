@@ -19,6 +19,16 @@ body {
 }
 
 .product__container {
+  display: block;
+  margin: 0 40px;
+}
+
+.product__title h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.product__item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
