@@ -34,20 +34,22 @@
 
 // function init() {
 //   prevBtn.setAttribute('disabled', 'true');
+//   const prevBtn = document.querySelector(".prev");
+//   const nextBtn = document.querySelector(".next");
 
 // }
 
 // init();
 
+
+// prevBtn.addEventListener("click", slide);
+// nextBtn.addEventListener("click", slideBack);
+
+
   const SHOWING_CLASS = "showing";
   const firstSlide = document.querySelector(".slider__item:first-child");
   const lastSlide = document.querySelector(".slider__item:last-child");
   
-  // const prevBtn = document.querySelector(".prev");
-  // const nextBtn = document.querySelector(".next");
-
-  // prevBtn.addEventListener("click", slide);
-  // nextBtn.addEventListener("click", slideBack);
 
   function slide() {
     
