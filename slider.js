@@ -32,18 +32,18 @@
 //   }
 // }
 
-// function init() {
-//   prevBtn.setAttribute('disabled', 'true');
-//   const prevBtn = document.querySelector(".prev");
-//   const nextBtn = document.querySelector(".next");
+const prevBtn = document.querySelector(".prev");
+const nextBtn = document.querySelector(".next");
 
-// }
+function init() {
+  // prevBtn.setAttribute('disabled', 'true');
+  prevBtn.addEventListener("click", slide);
+  nextBtn.addEventListener("click", slideBack);  
+}
 
-// init();
+init();
 
 
-// prevBtn.addEventListener("click", slide);
-// nextBtn.addEventListener("click", slideBack);
 
 
   const SHOWING_CLASS = "showing";
@@ -90,4 +90,4 @@
   }
 
   slide();
-  setInterval(slide, 5000);
+  setInterval(slide, 4000);
